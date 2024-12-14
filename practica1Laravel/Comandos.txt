@@ -1,0 +1,18 @@
+composer create-project laravel/laravel nombre-proyecto ---> comando para crear el proyecto laravel
+
+php artisan migrate:status ---> comprueba que en .env la conexión con la bd funcione correctamente
+php artisan migrate ---> se utiliza para crear las tablas en la base de datos que al crear el proyecto laravel crea automaticamente en migrations
+php artisan make:migration create_alumno_table ---> nos crea el fichero de migration para crear la tabla de alumnos en bd y nosotros la rellenabamos y ejecutabamos el comando de abajo
+php artisan make:migration ---> crea todas las tablas de la bd que se encuentran en el fichero de migrations (en este caso solo hay una alumnos)
+
+php artisan migrate:refresh ---> ejecuta el down:  y ejecuta el dropifexists , al no existir la tabla si que hay cambios por hacer en la bd entonces se va al metodo up ejecuta y vuelve a crear la tabla.
+
+php artisan make:seeder AlumnoSeeder ---> crea un fichero de seeder para la tabla de alumnos donde nosotros insertamos los datos que queremos que se inserten en la bd
+php artisan db:seed ---> ejecuta database seeder que contiene todas las llamadas a los distintos ficheros seeder que contiene los insert de la base de datos 
+
+php artisan make:model Alumno ---> crea el fichero modelo (Alumno.php)
+php artisan make:controller AlumnoController ---> crea el controlador para la tabla de alumnos que contiene toda la lógica de bd (crear, modificar, etc)
+
+php artisan make:middleware ValidarIdRutas ---> si no existe crea la carpeta middleware dentro de http y crea el fichero de middleware para validar el id de la ruta que pasamos por parametro
+php artisan serve ---> para ejecutar el servidor
+
