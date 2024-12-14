@@ -1,8 +1,0 @@
-laura, main, , 666777888, laura@gmail.com, fem
-Jose David, Cases Bernabeu, , 666777888, josedavidcases2003@gmail.com, masc
-Jose David, cases, , 666666666, phgusarapo@gmail.com, fem
-Jose David, cases, , 666777888, phgusarapo@gmail.com, fem
-Jose David, cases, , 666777888, phgusarapo@gmail.com, fem
-pocoyo, cases, , 666666666, poco@gmail.com, masc
-pocoyo, cases, , 666666666, poco@gmail.com, masc
-pocoyo, cases, , 666666666, poco@gmail.com, masc
